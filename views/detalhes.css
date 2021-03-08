@@ -1,0 +1,57 @@
+img.logo {
+  margin: 0 auto;
+  width: 20vw;
+  max-width: 100%;
+}
+div.area_logo {
+  background-color: #3e3e3e;
+}
+
+div.pai_sobre {
+  padding: 10px;
+  max-width: 100%;
+  height: 35vh;
+  font-size: 0.8rem;
+}
+
+div.detalhe_sobre_pai {
+  margin: 10px auto;
+  border: 3px solid blue;
+  display: flex;
+}
+
+div.detalhe_sobre_filho {
+  padding: 5px;
+  margin: 5px;
+  background-color: #f8f9fa;
+  font-size: 0.8rem;
+}
+.pai {
+  display: flex;
+  align-items: center;
+}
+.descricao {
+  text-align: right;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img.mizuno1 {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+div.rodape {
+  font-size: 0.7rem;
+  width: 100vw;
+  height: 5vh;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 800px) {
+  img.logo {
+    width: 30vh;
+  }
+}
